@@ -1,0 +1,26 @@
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+
+.vs/
+*.user
+*.suo
+
+# Build results
+bin/
+obj/
+
+# Publish results
+publish/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio Code
+.vscode/
+
+# Others
+*.log
+*.db
+*.DS_Store
