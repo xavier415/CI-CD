@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>12dc3ed9-d0c2-4bc1-b571-1d70540b3fd1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>maquina_cafe.py</StartupFile>
+    <StartupFile>main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,21 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="maquina_cafe.py" />
+    <Compile Include="main.py" />
+    <Compile Include="src\azucarero.py" />
+    <Compile Include="src\cafetera.py" />
+    <Compile Include="src\maquina_cafe.py" />
+    <Compile Include="src\vaso.py" />
+    <Compile Include="src\__init__.py" />
+    <Compile Include="tests\test_azucarero.py" />
+    <Compile Include="tests\test_cafetera.py" />
+    <Compile Include="tests\test_maquina_cafe.py" />
+    <Compile Include="tests\test_vaso.py" />
+    <Compile Include="tests\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="tests\" />
+    <Folder Include="src\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

@@ -1,6 +1,6 @@
 class Cafetera:
     def __init__(self, cantidad_cafe: int):
-        self._cantidad_cafe = cantidad_cafe  # en oz
+        self._cantidad_cafe = cantidad_cafe  
 
     def has_cafe(self, cantidad: int) -> bool:
         return self._cantidad_cafe >= cantidad

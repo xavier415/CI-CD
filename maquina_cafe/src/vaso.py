@@ -1,7 +1,7 @@
 class Vaso:
     def __init__(self, cantidad_vasos: int, contenido: int):
         self._cantidad_vasos = cantidad_vasos
-        self._contenido = contenido  # en oz
+        self._contenido = contenido  
 
     def has_vasos(self, cantidad: int) -> bool:
         return self._cantidad_vasos >= cantidad
